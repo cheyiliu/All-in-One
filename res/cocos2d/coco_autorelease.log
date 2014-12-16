@@ -1,0 +1,709 @@
+--------- beginning of /dev/log/system
+
+--------- beginning of /dev/log/main
+
+12-16 11:11:25.428 I/ActivityManager(  279): Start proc org.cocos2dx.cpp_empty_test for activity org.cocos2dx.cpp_empty_test/.AppActivity: pid=17224 uid=10157 gids={}
+
+12-16 11:11:25.799 D/dalvikvm(17224): Trying to load lib /data/data/org.cocos2dx.cpp_empty_test/lib/libcpp_empty_test.so 0x40d551c8
+
+12-16 11:11:25.889 D/dalvikvm(17224): Added shared lib /data/data/org.cocos2dx.cpp_empty_test/lib/libcpp_empty_test.so 0x40d551c8
+12-16 11:11:25.889 D/JniHelper(17224): JniHelper::setJavaVM(0x2667f8), pthread_self() = 1074799912
+12-16 11:11:25.929 D/main    (17224): cocos_android_app_init
+12-16 11:11:25.949 D/Cocos2dxActivity(17224): model=HTC T328w
+12-16 11:11:25.949 D/Cocos2dxActivity(17224): product=htc_primods
+12-16 11:11:25.949 D/Cocos2dxActivity(17224): isEmulator=false
+
+12-16 11:11:26.259 I/ActivityManager(  279): Displayed org.cocos2dx.cpp_empty_test/.AppActivity: +855ms
+
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): AutoreleasePool::AutoreleasePool(): 0x457ee0
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): PoolManager::push:        165, pool=0x457ee0 
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x457d70
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): 
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): {
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): 	gl.supports_vertex_array_object: true
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): 	gl.supports_BGRA8888: false
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): 	gl.supports_ATITC: true
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): 	gl.supports_S3TC: false
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): 	cocos2d.x.version: cocos2d-x 3.3rc2
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): 	gl.supports_discard_framebuffer: false
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): 	cocos2d.x.compiled_with_profiler: false
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): 	gl.supports_PVRTC: false
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): 	cocos2d.x.build_type: DEBUG
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): 	gl.renderer: Adreno (TM) 200
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): 	gl.supports_ETC1: true
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): 	cocos2d.x.compiled_with_gl_state_cache: true
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): 	gl.version: OpenGL ES 2.0 2184622
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): 	gl.supports_NPOT: true
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): 	gl.max_texture_units: 20
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): 	gl.vendor: Qualcomm
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): 	gl.max_texture_size: 4096
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): }
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): 
+12-16 11:11:26.359 D/cocos2d-x debug info(17224): 
+
+12-16 11:11:27.100 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x3f5218
+12-16 11:11:27.100 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9c8850
+12-16 11:11:27.100 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9ab0a0
+12-16 11:11:27.100 D/cocos2d-x debug info(17224): create rendererRecreatedListener for GLProgramState
+12-16 11:11:27.100 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9c9020
+12-16 11:11:27.100 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9c9130
+12-16 11:11:27.100 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x978b20
+12-16 11:11:27.100 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x978ea0
+12-16 11:11:27.100 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x979410
+12-16 11:11:27.100 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x979888
+12-16 11:11:27.130 D/cocos2d-x debug info(17224): AppDelegate::applicationDidFinishLaunching():         28
+12-16 11:11:27.150 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x979d18
+12-16 11:11:27.150 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x97a8f0
+12-16 11:11:27.150 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x97ae08
+12-16 11:11:27.150 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x97b1f8
+12-16 11:11:27.150 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x97b568
+12-16 11:11:27.150 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9c3368
+12-16 11:11:27.160 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9c38d8
+12-16 11:11:27.180 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9c3de0
+12-16 11:11:27.180 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9c49b8
+12-16 11:11:27.180 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9c4ed0
+12-16 11:11:27.180 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9c52c0
+12-16 11:11:27.180 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9c5758
+12-16 11:11:27.180 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9c5ac8
+12-16 11:11:27.180 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x97bed0
+12-16 11:11:27.180 D/cocos2d-x debug info(17224): HelloWorld::scene():          9
+12-16 11:11:27.190 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x97c558
+12-16 11:11:27.190 D/cocos2d-x debug info(17224): Node::insertChild(): child = 0x97c558
+12-16 11:11:27.190 D/cocos2d-x debug info(17224): Vector::pushBack(): last = 0x97c558
+12-16 11:11:27.190 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x97c8e8
+12-16 11:11:27.190 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x97c308
+12-16 11:11:27.190 D/cocos2d-x debug info(17224): HelloWorld::init():         30
+12-16 11:11:27.200 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x97cfd0
+12-16 11:11:27.200 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x97e038
+12-16 11:11:27.210 D/cocos2d-x debug info(17224): Node::insertChild(): child = 0x97cfd0
+12-16 11:11:27.210 D/cocos2d-x debug info(17224): Vector::pushBack(): last = 0x97cfd0
+12-16 11:11:27.210 D/cocos2d-x debug info(17224): Node::insertChild(): child = 0x97e038
+12-16 11:11:27.210 D/cocos2d-x debug info(17224): Vector::pushBack(): last = 0x97e038
+12-16 11:11:27.210 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x97cd80
+12-16 11:11:27.210 D/cocos2d-x debug info(17224): Vector::pushBack(): last = 0x97cd80
+12-16 11:11:27.210 D/cocos2d-x debug info(17224): Node::insertChild(): child = 0x97cd80
+12-16 11:11:27.210 D/cocos2d-x debug info(17224): Vector::pushBack(): last = 0x97cd80
+12-16 11:11:27.210 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x97f240
+12-16 11:11:27.210 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x97eff0
+12-16 11:11:27.210 D/cocos2d-x debug info(17224): Vector::clear(): (*it) = 0x97cd80
+12-16 11:11:27.210 D/cocos2d-x debug info(17224): Node::insertChild(): child = 0x97eff0
+12-16 11:11:27.210 D/cocos2d-x debug info(17224): Vector::pushBack(): last = 0x97eff0
+12-16 11:11:27.210 D/cocos2d-x debug info(17224): Node::removeAllChildrenWithCleanup, _children.clear()=0x97f738
+12-16 11:11:27.210 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x97fbc8
+12-16 11:11:27.210 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x97f738
+12-16 11:11:27.210 D/cocos2d-x debug info(17224): Node::insertChild(): child = 0x97f738
+12-16 11:11:27.210 D/cocos2d-x debug info(17224): Vector::pushBack(): last = 0x97f738
+12-16 11:11:27.210 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x97f4f8
+12-16 11:11:27.220 D/cocos2d-x debug info(17224): cocos2d: fullPathForFilename: No file found at Arial. Possible missing file.
+12-16 11:11:27.230 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9b7988
+12-16 11:11:27.230 D/cocos2d-x debug info(17224): Node::insertChild(): child = 0x9b7988
+12-16 11:11:27.230 D/cocos2d-x debug info(17224): Vector::pushBack(): last = 0x9b7988
+12-16 11:11:27.230 D/cocos2d-x debug info(17224): Node::insertChild(): child = 0x97f4f8
+12-16 11:11:27.230 D/cocos2d-x debug info(17224): Vector::pushBack(): last = 0x97f4f8
+12-16 11:11:27.320 W/CpuWake (  279): >>releaseCpuPerfWakeLock
+12-16 11:11:27.320 W/CpuWake (  279): <<releaseCpuPerfWakeLock
+12-16 11:11:27.541 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9b7d08
+12-16 11:11:27.541 D/cocos2d-x debug info(17224): Node::insertChild(): child = 0x9b7d08
+12-16 11:11:27.541 D/cocos2d-x debug info(17224): Vector::pushBack(): last = 0x9b7d08
+12-16 11:11:27.541 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x97cb10
+12-16 11:11:27.541 D/cocos2d-x debug info(17224): HelloWorld::scene: after create         getReferenceCount=         1 HelloWorld=0x97cb10
+12-16 11:11:27.541 D/cocos2d-x debug info(17224): Node::insertChild(): child = 0x97cb10
+12-16 11:11:27.551 D/cocos2d-x debug info(17224): Vector::pushBack(): last = 0x97cb10
+12-16 11:11:27.551 D/cocos2d-x debug info(17224): HelloWorld::scene: after added to sceen getReferenceCount=         2 HelloWorld=0x97cb10
+12-16 11:11:27.551 D/cocos2d-x debug info(17224): HelloWorld::init():         30
+12-16 11:11:27.551 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9b9030
+12-16 11:11:27.551 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9b93b0
+12-16 11:11:27.551 D/cocos2d-x debug info(17224): Node::insertChild(): child = 0x9b9030
+12-16 11:11:27.551 D/cocos2d-x debug info(17224): Vector::pushBack(): last = 0x9b9030
+12-16 11:11:27.551 D/cocos2d-x debug info(17224): Node::insertChild(): child = 0x9b93b0
+12-16 11:11:27.551 D/cocos2d-x debug info(17224): Vector::pushBack(): last = 0x9b93b0
+12-16 11:11:27.551 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9b8de0
+12-16 11:11:27.551 D/cocos2d-x debug info(17224): Vector::pushBack(): last = 0x9b8de0
+12-16 11:11:27.551 D/cocos2d-x debug info(17224): Node::insertChild(): child = 0x9b8de0
+12-16 11:11:27.551 D/cocos2d-x debug info(17224): Vector::pushBack(): last = 0x9b8de0
+12-16 11:11:27.551 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x3798c8
+12-16 11:11:27.551 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9b9768
+12-16 11:11:27.551 D/cocos2d-x debug info(17224): Vector::clear(): (*it) = 0x9b8de0
+12-16 11:11:27.551 D/cocos2d-x debug info(17224): Node::insertChild(): child = 0x9b9768
+12-16 11:11:27.551 D/cocos2d-x debug info(17224): Vector::pushBack(): last = 0x9b9768
+12-16 11:11:27.551 D/cocos2d-x debug info(17224): Node::removeAllChildrenWithCleanup, _children.clear()=0x9b9cd0
+12-16 11:11:27.551 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9b8d88
+12-16 11:11:27.551 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9b9cd0
+12-16 11:11:27.551 D/cocos2d-x debug info(17224): Node::insertChild(): child = 0x9b9cd0
+12-16 11:11:27.561 D/cocos2d-x debug info(17224): Vector::pushBack(): last = 0x9b9cd0
+12-16 11:11:27.561 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9b9a90
+12-16 11:11:27.561 D/cocos2d-x debug info(17224): cocos2d: fullPathForFilename: No file found at Arial. Possible missing file.
+12-16 11:11:27.561 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9bb690
+12-16 11:11:27.561 D/cocos2d-x debug info(17224): Node::insertChild(): child = 0x9bb690
+12-16 11:11:27.561 D/cocos2d-x debug info(17224): Vector::pushBack(): last = 0x9bb690
+12-16 11:11:27.561 D/cocos2d-x debug info(17224): Node::insertChild(): child = 0x9b9a90
+12-16 11:11:27.561 D/cocos2d-x debug info(17224): Vector::pushBack(): last = 0x9b9a90
+12-16 11:11:27.561 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9bba28
+12-16 11:11:27.561 D/cocos2d-x debug info(17224): Node::insertChild(): child = 0x9bba28
+12-16 11:11:27.561 D/cocos2d-x debug info(17224): Vector::pushBack(): last = 0x9bba28
+12-16 11:11:27.561 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9815b0
+12-16 11:11:27.561 D/cocos2d-x debug info(17224): HelloWorld::scene: 不调用addchild到scene,getReferenceCount=         2 HelloWorld=0x9815b0
+12-16 11:11:27.561 D/cocos2d-x debug info(17224): Vector::pushBack(): last = 0x97c308
+12-16 11:11:27.611 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:27.611 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:27.611 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:27.611 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x457d70 
+12-16 11:11:27.611 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x3f5218 
+12-16 11:11:27.611 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x9c8850 
+12-16 11:11:27.611 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x9ab0a0 
+12-16 11:11:27.611 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x9c9020 
+12-16 11:11:27.611 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x9c9130 
+12-16 11:11:27.611 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x978b20 
+12-16 11:11:27.611 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x978ea0 
+12-16 11:11:27.611 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x979410 
+12-16 11:11:27.611 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x979888 
+12-16 11:11:27.611 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x979d18 
+12-16 11:11:27.611 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x97a8f0 
+12-16 11:11:27.611 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x97ae08 
+12-16 11:11:27.611 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x97b1f8 
+12-16 11:11:27.611 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x97b568 
+12-16 11:11:27.611 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x9c3368 
+12-16 11:11:27.611 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x9c38d8 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x9c3de0 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x9c49b8 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x9c4ed0 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x9c52c0 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x9c5758 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x9c5ac8 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x97bed0 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x97c558 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x97c8e8 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x97c308 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x97cfd0 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x97e038 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x97cd80 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x97f240 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x97eff0 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x97fbc8 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x97f738 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x97f4f8 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x9b7988 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x9b7d08 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x97cb10 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x9b9030 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x9b93b0 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x9b8de0 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x3798c8 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x9b9768 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x9b8d88 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x9b9cd0 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x9b9a90 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x9bb690 
+12-16 11:11:27.621 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x9bba28 
+12-16 11:11:27.631 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         74, obj=0x9815b0 
+12-16 11:11:27.631 D/cocos2d-x debug info(17224): HelloWorld::~HelloWorld:         22 HelloWorld=0x9815b0
+12-16 11:11:27.631 D/cocos2d-x debug info(17224): Vector::clear(): (*it) = 0x9b9768
+12-16 11:11:27.631 D/cocos2d-x debug info(17224): Vector::clear(): (*it) = 0x9b8de0
+12-16 11:11:27.631 D/cocos2d-x debug info(17224): Vector::clear(): (*it) = 0x9b9030
+12-16 11:11:27.631 D/cocos2d-x debug info(17224): Vector::clear(): (*it) = 0x9b93b0
+12-16 11:11:27.631 D/cocos2d-x debug info(17224): Vector::clear(): (*it) = 0x9b9a90
+12-16 11:11:27.631 D/cocos2d-x debug info(17224): Vector::clear(): (*it) = 0x9b9cd0
+12-16 11:11:27.631 D/cocos2d-x debug info(17224): Vector::clear(): (*it) = 0x9bb690
+12-16 11:11:27.631 D/cocos2d-x debug info(17224): Vector::clear(): (*it) = 0x9bba28
+12-16 11:11:27.631 I/Adreno200-EGLSUB(  102): <CreateImage:813>: Android Image
+12-16 11:11:27.631 I/Adreno200-EGLSUB(  102): <GetImageAttributes:1022>: RGBA_8888
+12-16 11:11:27.651 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:27.651 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:27.651 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:27.671 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:27.671 I/Adreno200-EGLSUB(  102): <CreateImage:813>: Android Image
+12-16 11:11:27.671 I/Adreno200-EGLSUB(  102): <GetImageAttributes:1022>: RGBA_8888
+12-16 11:11:27.671 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:27.681 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:27.681 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:27.681 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:27.681 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:27.691 I/Adreno200-EGLSUB(  102): <CreateImage:813>: Android Image
+12-16 11:11:27.691 I/Adreno200-EGLSUB(  102): <GetImageAttributes:1022>: RGBA_8888
+12-16 11:11:27.701 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:27.701 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:27.701 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:27.711 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:27.711 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:27.721 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:27.731 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:27.731 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:27.741 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:27.751 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:27.751 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:27.751 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:27.761 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:27.761 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:27.771 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:27.781 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:27.781 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:27.791 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:27.801 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:27.801 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:27.801 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:27.811 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:27.821 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:27.821 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:27.831 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:27.831 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:27.831 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:27.851 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:27.851 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:27.851 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:27.861 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:27.871 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:27.871 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:27.881 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:27.881 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:27.891 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:27.891 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:27.901 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:27.901 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:27.921 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:27.921 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:27.921 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:27.931 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:27.931 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:27.941 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:27.951 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:27.951 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:27.951 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:27.961 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:27.971 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:27.971 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:27.981 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:27.981 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:27.991 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:27.991 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.001 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.001 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.021 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.021 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.021 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.041 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.041 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.041 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.051 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.051 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.061 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.061 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.071 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.071 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.091 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.091 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.091 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.101 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.101 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.111 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.121 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.121 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.131 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.141 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.141 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.141 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.151 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.151 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.161 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.161 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.171 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.171 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.191 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.191 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.191 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.201 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.201 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.211 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.221 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.221 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.231 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.231 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.241 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.241 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.251 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.261 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.261 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.271 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.271 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.301 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.311 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.311 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.321 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.321 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.321 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.341 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.341 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.351 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.351 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.371 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.371 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.381 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.391 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.391 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.391 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.401 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.401 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.411 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.421 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.431 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.431 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.441 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.441 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.451 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.461 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.471 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.471 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.491 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.491 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.501 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.501 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.501 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.511 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.521 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.521 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.532 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.542 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.552 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.562 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.562 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.562 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.572 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.582 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.582 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.602 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.602 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.612 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.612 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.622 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.622 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.632 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.642 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.652 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.652 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.672 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.672 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.692 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.692 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.692 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.702 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.712 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.712 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.732 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.732 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.732 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.752 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.752 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.752 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.762 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.782 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.782 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.782 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.792 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.792 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.812 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.822 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.822 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.832 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.832 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.842 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.852 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.852 D/dalvikvm(  279): GC_EXPLICIT freed 78K, 21% free 11427K/14307K, paused 13ms+39ms
+12-16 11:11:28.862 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.862 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.862 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.872 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.872 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.892 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.892 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.892 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.892 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.912 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.912 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.912 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.922 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.922 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.932 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.942 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.942 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.942 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.962 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.962 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.962 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.972 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.972 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.982 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:28.992 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:28.992 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:28.992 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.002 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.002 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.012 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.022 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.022 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.032 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.042 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.042 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.042 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.062 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.062 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.062 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.072 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.072 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.082 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.092 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.092 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.112 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.112 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.112 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.112 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.132 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.132 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.132 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.142 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.142 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.152 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.162 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.162 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.162 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.182 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.182 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.182 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.192 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.192 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.202 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.212 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.212 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.212 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.222 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.222 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.232 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.242 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.242 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.252 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.262 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.262 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.262 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.282 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.282 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.282 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.292 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.292 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.292 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.312 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.312 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.312 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.332 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.332 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.332 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.342 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.342 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.352 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.362 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.362 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.362 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.372 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.382 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.382 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.392 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.392 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.402 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.402 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.412 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.412 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.432 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.432 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.432 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.442 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.442 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.452 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.462 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.462 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.472 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.472 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.482 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.482 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.492 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.502 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.502 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.512 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.512 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.522 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.532 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.532 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.532 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.553 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.553 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.553 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.563 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.563 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.573 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.583 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.583 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.583 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.603 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.603 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.603 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.613 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.623 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.623 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.623 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.633 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.633 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.653 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.653 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.653 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.663 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.673 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.673 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.683 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.693 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.693 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.703 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.703 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.703 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.723 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.723 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.733 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.743 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.743 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.743 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+
+12-16 11:11:29.773 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.773 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.783 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.783 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.783 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.783 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.803 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.803 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.803 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.813 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.813 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.813 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.833 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.833 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.833 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.843 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.843 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.853 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.863 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.863 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.873 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.883 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.883 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.893 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.903 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.903 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.903 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.913 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.913 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.923 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.933 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.933 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.933 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.953 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.953 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.953 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.963 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.963 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.973 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:29.983 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:29.983 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:29.983 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:30.003 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:30.003 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:30.003 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:30.013 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:30.013 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:30.023 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:30.033 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:30.033 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:30.033 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:30.053 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:30.053 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:30.053 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:30.063 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:30.063 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:30.063 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:30.083 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:30.083 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:30.083 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:30.103 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:30.103 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:30.103 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:30.113 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:30.123 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:30.123 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:30.133 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:30.133 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:30.133 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:30.153 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:30.153 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:30.153 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:30.173 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:30.173 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:30.173 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:30.183 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:30.183 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:30.183 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:30.203 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:30.203 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:30.203 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:30.223 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:30.223 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:30.223 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:30.233 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:30.233 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:30.233 I/PowerManagerService-JNI(  279): [Stability] PowerManagerService_userActivity JNI pass power key event to PowerManagerService userActivity()
+12-16 11:11:30.253 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:30.263 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:30.263 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:30.263 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:30.273 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:30.273 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:30.273 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:30.293 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:30.293 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:30.293 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:30.313 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:30.313 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:30.323 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:30.333 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:30.333 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:30.333 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:30.353 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:30.353 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
+12-16 11:11:30.353 D/cocos2d-x debug info(17224):  AutoreleasePool::clear:         68 
+12-16 11:11:30.373 D/cocos2d-x debug info(17224): HelloWorld::menuCloseCallback():         87
+12-16 11:11:30.373 D/cocos2d-x debug info(17224):  DisplayLinkDirector::end:        927
+12-16 11:11:30.373 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
+12-16 11:11:30.373 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1294
+12-16 11:11:30.373 D/cocos2d-x debug info(17224):  DisplayLinkDirector::purgeDirector:        933
+12-16 11:11:30.373 D/cocos2d-x debug info(17224):  DisplayLinkDirector::purgeDirector, before _scenesStack.clear();:        955
+12-16 11:11:30.373 D/cocos2d-x debug info(17224): Vector::clear(): (*it) = 0x97c308
+12-16 11:11:30.383 D/cocos2d-x debug info(17224): Vector::clear(): (*it) = 0x97c558
+12-16 11:11:30.383 D/cocos2d-x debug info(17224): Vector::clear(): (*it) = 0x97cb10
+12-16 11:11:30.383 D/cocos2d-x debug info(17224): HelloWorld::~HelloWorld:         22 HelloWorld=0x97cb10
+12-16 11:11:30.383 D/cocos2d-x debug info(17224): Vector::clear(): (*it) = 0x9b7d08
+12-16 11:11:30.383 D/cocos2d-x debug info(17224): Vector::clear(): (*it) = 0x97eff0
+12-16 11:11:30.383 D/cocos2d-x debug info(17224): Vector::clear(): (*it) = 0x97cd80
+12-16 11:11:30.383 D/cocos2d-x debug info(17224): Vector::clear(): (*it) = 0x97cfd0
+12-16 11:11:30.383 D/cocos2d-x debug info(17224): Vector::clear(): (*it) = 0x97e038
+12-16 11:11:30.383 D/cocos2d-x debug info(17224): Vector::clear(): (*it) = 0x97f4f8
+12-16 11:11:30.383 D/cocos2d-x debug info(17224): Vector::clear(): (*it) = 0x97f738
+12-16 11:11:30.383 D/cocos2d-x debug info(17224): Vector::clear(): (*it) = 0x9b7988
+12-16 11:11:30.383 D/cocos2d-x debug info(17224):  DisplayLinkDirector::purgeDirector, after  _scenesStack.clear();:        957
+12-16 11:11:30.393 D/Process (17224): killProcess, pid=17224
+12-16 11:11:30.393 D/Process (17224): dalvik.system.VMStack.getThreadStackTrace(Native Method)
+12-16 11:11:30.403 D/Process (17224): java.lang.Thread.getStackTrace(Thread.java:599)
+12-16 11:11:30.403 D/Process (17224): android.os.Process.killProcess(Process.java:807)
+12-16 11:11:30.403 D/Process (17224): org.cocos2dx.lib.Cocos2dxHelper.terminateProcess(Cocos2dxHelper.java:298)
+12-16 11:11:30.403 D/Process (17224): org.cocos2dx.lib.Cocos2dxRenderer.nativeRender(Native Method)
+12-16 11:11:30.403 D/Process (17224): org.cocos2dx.lib.Cocos2dxRenderer.onDrawFrame(Cocos2dxRenderer.java:91)
+12-16 11:11:30.403 D/Process (17224): android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1470)
+12-16 11:11:30.403 D/Process (17224): android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1224)
+12-16 11:11:30.403 I/Process (17224): Sending signal. PID: 17224 SIG: 9
+12-16 11:11:30.413 I/WindowManager(  279): WIN DEATH: Window{41045a00 org.cocos2dx.cpp_empty_test/org.cocos2dx.cpp_empty_test.AppActivity paused=false}
+12-16 11:11:30.413 W/WindowManager(  279): Force-removing child win Window{411c3538 SurfaceView paused=false} from container Window{41045a00 org.cocos2dx.cpp_empty_test/org.cocos2dx.cpp_empty_test.AppActivity paused=false}
+12-16 11:11:30.423 I/ActivityManager(  279): Process org.cocos2dx.cpp_empty_test (pid 17224) has died.
+12-16 11:11:30.423 W/ActivityManager(  279): Force removing ActivityRecord{410f5340 org.cocos2dx.cpp_empty_test/.AppActivity}: app died, no saved state
+
