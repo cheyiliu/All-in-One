@@ -142,7 +142,7 @@
 12-16 11:11:27.561 D/cocos2d-x debug info(17224): Node::insertChild(): child = 0x9bba28
 12-16 11:11:27.561 D/cocos2d-x debug info(17224): Vector::pushBack(): last = 0x9bba28
 12-16 11:11:27.561 D/cocos2d-x debug info(17224): AutoreleasePool::addObject(): object = 0x9815b0
-12-16 11:11:27.561 D/cocos2d-x debug info(17224): HelloWorld::scene: 不调用addchild到scene,getReferenceCount=         2 HelloWorld=0x9815b0
+12-16 11:11:27.561 D/cocos2d-x debug info(17224): HelloWorld::scene: 不调用addchild到scene,getReferenceCount=         2 HelloWorld=0x9815b0//为何这里计数器是2？ 查了下代码，是我代码中的错误，拷贝log后忘了修改变量。。。
 12-16 11:11:27.561 D/cocos2d-x debug info(17224): Vector::pushBack(): last = 0x97c308
 12-16 11:11:27.611 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop: 
 12-16 11:11:27.611 D/cocos2d-x debug info(17224):  DisplayLinkDirector::mainLoop:       1300
