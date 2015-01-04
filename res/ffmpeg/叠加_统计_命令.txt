@@ -1,0 +1,5 @@
+movie=filename=/home/xuss/tail.mp4:loop=200000:stream_index=0,scale=720:576, setpts=N/(25*TB)[logo];[logo] split [logo1][logozz];[logo1][logozz]alphamerge[out];[main][out]overlay=0:0, split [main1] [main2];[main2]histogram, scale=200:576[his];[main1][his]overlay=0:0
+
+
+
+ffplay  -f mpegts udp://192.168.6.72:8080 -analyzeduration 10000000
