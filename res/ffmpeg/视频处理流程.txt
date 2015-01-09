@@ -1,0 +1,2 @@
+file -> 读buffer -> 解formmat -> decoder -> do filter etc 
+file <- 写buffer <- 加formmat <- encoder <- 接上面
